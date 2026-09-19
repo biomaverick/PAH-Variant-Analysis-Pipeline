@@ -1,0 +1,17 @@
+name: ngs-pah
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - fastqc
+  - fastp
+  - bwa
+  - samtools
+  - bcftools
+  - gatk4
+  - ensembl-vep
+  - sra-tools
+  - multiqc
+  - pip

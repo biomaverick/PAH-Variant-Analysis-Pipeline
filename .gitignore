@@ -1,0 +1,19 @@
+# Reference genome and BWA index (large, regenerable via README/provenance instructions)
+hg19.fa
+hg19.fa.*
+hg19.dict
+6HYC.pdb
+
+# Raw and intermediate sequencing data (large, regenerable from provenance.md sources)
+data/raw/
+data/truth/
+data/nexterarapidcapture_expandedexome_targetedregions.bed
+
+# Large intermediate pipeline outputs
+results/trimmed/
+results/aligned/
+results/fastqc/*.zip
+results/variants/pah_db/
+
+# OS junk
+.DS_Store
