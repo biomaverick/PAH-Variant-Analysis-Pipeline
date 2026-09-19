@@ -1,7 +1,5 @@
 # PAH Variant Discovery & Structural Impact Pipeline
 
-**Status:** ✅ Complete (pilot-scale)
-
 ## Overview
 
 An end-to-end NGS variant-calling pipeline built on real, unaligned exome sequencing data (NA12878/HG001, NIST7035 replicate), targeting the *PAH* (phenylalanine hydroxylase) locus. The pipeline goes from raw FASTQ through alignment, variant calling, validation against the GIAB gold-standard truth set, and functional annotation. It identified a well-documented, clinically classified pathogenic *PAH* variant (Y414C) in a heterozygous state — consistent with the sample's known healthy carrier phenotype — and cross-validated the finding using two independent computational pathogenicity predictors (AlphaMissense, ClinPred) against expert clinical curation (ClinGen).
