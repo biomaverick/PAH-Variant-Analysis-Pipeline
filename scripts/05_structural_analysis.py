@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""
-05_structural_analysis.py
-
-Takes a filtered variant table (CSV) and generates:
-  1. A PyMOL script to highlight each mutated residue on the PAH structure
-  2. FoldX-ready individual_list.txt mutation strings
-
-Expects a CSV with columns: gene, aa_change (e.g. "R261Q"), pdb_chain (e.g. "A")
-
-Usage:
-    python 05_structural_analysis.py variant_table.csv --pdb 1PAH --chain A
-"""
 import argparse
 import csv
 import re
