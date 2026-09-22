@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 01_qc.sh — raw read QC + adapter trimming
-# Usage: ./01_qc.sh <sample_name> <R1.fastq.gz> <R2.fastq.gz>
+# Usage: ./01_qc.sh <sample_name> <R1.fastq.gz> <R2.fastq.gz
 set -euo pipefail
 
 SAMPLE=$1
