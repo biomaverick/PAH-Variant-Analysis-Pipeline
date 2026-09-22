@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 02_align.sh — align trimmed reads to reference, sort, mark duplicates
 # Usage: ./02_align.sh <sample_name> <reference.fa>
-# Expects trimmed reads at results/trimmed/<sample>_R1.trimmed.fastq.gz etc.
+# Expects trimmed reads at results/trimmed/<sample>_R1.trimmed.fastq.gz etc
 set -euo pipefail
 
 SAMPLE=$1
