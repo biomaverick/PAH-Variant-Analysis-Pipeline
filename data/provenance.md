@@ -53,3 +53,4 @@ Lanes were concatenated per read direction (same library sequenced across two ph
   - ClinGen PAH Expert Panel classification: pathogenic (mild PKU-associated)
   - AlphaMissense: 0.8118 (pathogenic class); ClinPred: 0.9387
   - gnomAD v2.1.1 frequency: ~0.00037
+  - **DynaMut2 structural stability (PDB 6HYC, chain A, position 414):** consensus ΔΔG = -1.627 kcal/mol (destabilizing); mCSM -1.817, DUET -1.734, SDM -0.350, NMA/ENCoM -0.559 (all destabilizing); ΔΔSvib = +0.698 kcal·mol⁻¹·K⁻¹ (increased flexibility, localized to the C-terminal helical region near the mutation site). Full output in `results/structural/dynamut2/`.
